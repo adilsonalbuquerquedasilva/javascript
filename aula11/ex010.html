@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>sistema de multa de transito</h1>
+    <form action="">
+        <p>
+            <label for="txtvel">Velocidade do carro: </label>
+            <input type="text" id="txtvel">
+            <input type="button" value="calcular" onclick="calcular()">
+            <div id="res"></div>
+        </p>
+    </form>
+
+    <script>
+        function calcular(){
+            const velocidade = Number(document.getElementById('txtvel').value)
+            const multa = document.getElementById('res')
+            if (velocidade > 60){
+                multa.innerHTML = `Você ultrapassou a Velocidade permitida ${velocidade}KM`
+            }else{
+                multa.innerHTML = `Você esta dentro da velocidade permitida ${txtvel}`
+            }
+        }
+        
+    </script>
+    
+</body>
+</html>
