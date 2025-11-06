@@ -17,13 +17,14 @@
     </form>
 
     <script>
+        const tvel = document.getElementById('txtvel')
         function calcular(){
-            const velocidade = Number(document.getElementById('txtvel').value)
+            const velocidade = Number(tvel.value)
             const multa = document.getElementById('res')
             if (velocidade > 60){
                 multa.innerHTML = `Você ultrapassou a Velocidade permitida ${velocidade}KM`
             }else{
-                multa.innerHTML = `Você esta dentro da velocidade permitida ${txtvel}`
+                multa.innerHTML = `Você esta dentro da velocidade permitida ${velocidade}KM`
             }
         }
         
