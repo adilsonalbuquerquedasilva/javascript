@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(82, 85, 247);
+}
+
+header{
+    text-align: center;
+    color: white;
+    padding: 20px;
+
+}
+
+main{
+    font-size: 1.3em;
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+    width: 600px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.342);
+}
+
+main p{
+    margin-bottom: 10px;
+}
+
+#mensagem{
+    text-align: center;
+}
+
+#imagem{
+    width: 250px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    padding: 10;
+    margin-top: 15px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
