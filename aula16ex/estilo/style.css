@@ -1,0 +1,24 @@
+@charset "UTF8";
+
+body{
+    background-color: rgb(16, 137, 236);
+}
+
+header{
+    text-align: center;
+    color: white;
+}
+
+main{
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.459);
+    width: 700px;
+    margin: auto;
+    font-size: 1.2em;
+}
+
+#listaform{
+    width: 150px;
+}
